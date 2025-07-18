@@ -8,31 +8,31 @@
 
 ## Содержание
 
-Нажатие клавиши "g"
-Клавиша "enter" нажимается до упора
-Срабатывает прерывание [НЕ для USB-клавиатур]
-(В Windows) Приложению отправляется сообщение WM_KEYDOWN
-(В OS X) Приложению отправляется NSEvent KeyDown
-(В GNU/Linux) Xorg сервер прослушивает коды клавиш
-Разбор URL
-Это URL или поисковый запрос?
-Преобразование не-ASCII символов Unicode в имени хоста
-Проверка списка HSTS
-DNS-запрос
-Процесс ARP
-Открытие сокета
-TLS рукопожатие
-Если пакет потерян
-HTTP протокол
-Обработка HTTP-запроса сервером
-За кулисами браузера
-Браузер
-HTML парсинг
-CSS интерпретация
-Рендеринг страницы
-GPU рендеринг
-Оконный сервер
-Пост-рендеринг и выполнение, инициированное пользователем
+- [Нажатие клавиши "g"](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BD%D0%B0%D0%B6%D0%B0%D1%82%D0%B8%D0%B5-%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D1%88%D0%B8-g)
+- [Клавиша "enter" нажимается до упора](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D1%88%D0%B0-enter-%D0%BD%D0%B0%D0%B6%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D0%B4%D0%BE-%D1%83%D0%BF%D0%BE%D1%80%D0%B0)
+- [Срабатывает прерывание [НЕ для USB-клавиатур]](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D1%81%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D0%B5%D1%82-%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B5-%D0%B4%D0%BB%D1%8F-usb-%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80)
+- [(В Windows) Приложению отправляется сообщение WM_KEYDOWN](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D1%81%D1%80%D0%B0%D0%B1%D0%B0%D1%82%D1%8B%D0%B2%D0%B0%D0%B5%D1%82-%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B5-%D0%B4%D0%BB%D1%8F-usb-%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80)
+- [(В OS X) Приложению отправляется NSEvent KeyDown](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%B2-os-x-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8E-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F-nsevent-keydown)
+- [(В GNU/Linux) Xorg сервер прослушивает коды клавиш](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%B2-gnulinux-xorg-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80-%D0%BF%D1%80%D0%BE%D1%81%D0%BB%D1%83%D1%88%D0%B8%D0%B2%D0%B0%D0%B5%D1%82-%D0%BA%D0%BE%D0%B4%D1%8B-%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D1%88)
+- [Разбор URL](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D1%80-url)
+- [Это URL или поисковый запрос?](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D1%8D%D1%82%D0%BE-url-%D0%B8%D0%BB%D0%B8-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81)
+- [Преобразование не-ASCII символов Unicode в имени хоста](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BF%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B5-ascii-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2-unicode-%D0%B2-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-%D1%85%D0%BE%D1%81%D1%82%D0%B0)
+- [Проверка списка HSTS](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0-%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B0-hsts)
+- [DNS-запрос](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#dns-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81)
+- [Процесс ARP](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-arp)
+- [Открытие сокета](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D1%81%D0%BE%D0%BA%D0%B5%D1%82%D0%B0)
+- [TLS рукопожатие](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#tls-%D1%80%D1%83%D0%BA%D0%BE%D0%BF%D0%BE%D0%B6%D0%B0%D1%82%D0%B8%D0%B5)
+- [Если пакет потерян](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%B5%D1%81%D0%BB%D0%B8-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82-%D0%BF%D0%BE%D1%82%D0%B5%D1%80%D1%8F%D0%BD)
+- [HTTP протокол](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#http-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB)
+- [Обработка HTTP-запроса сервером](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-http-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%B0-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%BE%D0%BC)
+- [За кулисами браузера](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%B7%D0%B0-%D0%BA%D1%83%D0%BB%D0%B8%D1%81%D0%B0%D0%BC%D0%B8-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0)
+- [Браузер](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)
+- [HTML парсинг](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#html-%D0%BF%D0%B0%D1%80%D1%81%D0%B8%D0%BD%D0%B3)
+- [CSS интерпретация](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#css-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D1%80%D0%B5%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
+- [Рендеринг страницы](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B)
+- [GPU рендеринг](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#gpu-%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3)
+- [Оконный сервер](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BE%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80)
+- [Пост-рендеринг и выполнение, инициированное пользователем](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BF%D0%BE%D1%81%D1%82-%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3-%D0%B8-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%BC)
 
 ## Нажатие клавиши "g"
 
