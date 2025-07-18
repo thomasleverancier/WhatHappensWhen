@@ -31,7 +31,7 @@
 - [CSS интерпретация](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#css-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D1%80%D0%B5%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
 - [Рендеринг страницы](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B)
 - [GPU рендеринг](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#gpu-%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3)
-- [Оконный сервер](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BE%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80)
+- [Windows server](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BE%D0%BA%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80)
 - [Пост-рендеринг и выполнение, инициированное пользователем](https://github.com/thomasleverancier/WhatHappensWhen/blob/main/README.md#%D0%BF%D0%BE%D1%81%D1%82-%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B8%D0%BD%D0%B3-%D0%B8-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8%D0%BD%D0%B8%D1%86%D0%B8%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%BC)
 
 ## Нажатие клавиши "g"
@@ -365,7 +365,7 @@ HTML не может быть разобран с использованием �
 
 При использовании GPU для графических вычислений рендеринга графические программные слои разделяют задачу на несколько частей, чтобы воспользоваться массивным параллелизмом GPU для вычислений с плавающей точкой, необходимых для процесса рендеринга.
 
-## Оконный сервер
+## Windows server
 
 ## Пост-рендеринг и выполнение, инициированное пользователем
 
